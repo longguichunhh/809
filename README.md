@@ -42,4 +42,8 @@ func main(){
 ```
 
 该接口会返回一串JSON，其中包含反向代理服务器的url  
-**！！此外，需要修改xray引用的ws库删除upgrade头才能正常反代，不然会连不上，可以参考一下[我修改的](https://github.com/Yuzuki999/websocket)！！**
+**！！此外，需要修改xray&v2ray引用的ws库删除upgrade头才能正常反代，不然会连不上，可以参考一下[我修改的](https://github.com/Yuzuki999/websocket)！！**
+
+# 还是不懂？
+
+直接请求接口把返回的url填进你节点配置文件里就行了！一定要修改过的xray&v2ray才行，该说的都说了，不需要额外操作！
