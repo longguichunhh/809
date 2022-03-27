@@ -42,4 +42,4 @@ func main(){
 ```
 
 该接口会返回一串JSON，其中包含反向代理服务器的url  
-** 此外，需要修改xray引用的ws库删除upgrade头才能正常反代，可以参考一下[我修改的](https://github.com/Yuzuki999/websocket) **
+**此外，需要修改xray引用的ws库删除upgrade头才能正常反代，可以参考一下[我修改的](https://github.com/Yuzuki999/websocket)**
