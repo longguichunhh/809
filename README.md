@@ -8,9 +8,9 @@
 - `pid`: 未知，目前实测有效的参数为: `81117`
 - `spip`: 反向代理的源服务器IP
 - `spport`: 反向代理的源服务器端口
-- `spkey`: 在path及请求参数最后加上3d99ff138e1f41e931e58617e7d128e2之后做md5加密的结果
+- `spkey`: 在path及请求参数最后加上 `3d99ff138e1f41e931e58617e7d128e2` 之后做md5加密的结果
 
-示例代码: 
+示例代码(Golang): 
 ``` Go
 func getFakeID() string {
 	str := "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
